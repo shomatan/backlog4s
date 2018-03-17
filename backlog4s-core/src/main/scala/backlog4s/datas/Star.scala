@@ -14,7 +14,7 @@ case class Star(
 case class StarForm(
   issueId: Option[Id[Issue]] = None,
   commentId: Option[Id[Comment]] = None,
-  wikiId: Option[Id[Wiki]] = None,
+  wikiId: Option[Id[Wiki]] = None
   //pullRequestId: Option[Id[Nothing]] = None,
   //pullRequestCommentId: Option[Id[Nothing]] = None
 )
